@@ -1,5 +1,6 @@
 # BOOK GENRE CLASSIFICATION BY ITS COVER USING MULTI-VIEW LEARNING APPROACH
 
+**Abstract**
 An interesting topic in visual analysis is to determine the genre of a book by
 its cover. The book cover is the very first communication to the reader which shapes
 the reader’s expectation about the type of the book. Each book cover is carefully
@@ -10,10 +11,15 @@ ResNet50, Inception V2. Moreover, we add an extra modality by extracting text fr
 the cover image. We explore some simple text classification algorithms such as LSTM
 and Universal Sentence Decoder. Moreover, we focus on model concatenation based on
 of two best performing models on cover image and text. Finally, we propose the use
-of deep canonical correlation analysis to jointly learn the features from two modalities:
+of [deep canonical correlation analysis(DCCA)](http://www.jmlr.org/proceedings/papers/v28/andrew13.pdf) to jointly learn the features from two modalities:
 image and text, then use a support vector machine classifier to predict the genre of the
 book. Overall, concatenation of two models yields the best result. However, our analysis
 revealed the weakness of these models for solving this task on our used dataset. Our
 results suggest that solving this task to a satisfactory level needs significant efforts and
 much-more accurate dataset.
+
+**Dataset**
+To evaluate the proposed study, we use the [BookCover30 dataset](https://github.com/uchidalab/book-dataset) proposed by
+[Iwana and Uchida 2016](https://arxiv.org/pdf/1610.09204.pdf). This dataset contains 57,000 book cover images divided into
+30 genres. 
 
