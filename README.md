@@ -23,8 +23,8 @@ To evaluate the proposed study, we use the [BookCover30 dataset](https://github.
 [Iwana and Uchida 2016](https://arxiv.org/pdf/1610.09204.pdf). This dataset contains 57,000 book cover images divided into
 30 genres. 
 
-| Arts & Photography | Biographies & Memoirs | Business & Money |
 |---|---|---|
+| Arts & Photography | Biographies & Memoirs | Business & Money |
 | Calendars | Children's Books | Christian Books & Bibles |
 | Comics & Graphic Novels | Computers & Technology | Cookbooks, Food & Wine |
 | Crafts, Hobbies & Home | Engineering & Transportation | Health, Fitness & Dieting |
