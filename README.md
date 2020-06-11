@@ -24,6 +24,7 @@ To evaluate the proposed study, we use the [BookCover30 dataset](https://github.
 30 genres. 
 
 | Arts & Photography | Biographies & Memoirs | Business & Money |
+|---|---|---|
 | Calendars | Children's Books | Christian Books & Bibles |
 | Comics & Graphic Novels | Computers & Technology | Cookbooks, Food & Wine |
 | Crafts, Hobbies & Home | Engineering & Transportation | Health, Fitness & Dieting |
